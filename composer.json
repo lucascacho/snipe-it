@@ -12,6 +12,7 @@
   "type": "project",
   "require": {
     "php": "^7.2.5",
+    "heroku-php-apache2": "*",
     "ext-curl": "*",
     "ext-fileinfo": "*",
     "ext-json": "*",
