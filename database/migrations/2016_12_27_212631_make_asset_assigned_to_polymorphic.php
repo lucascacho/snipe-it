@@ -8,7 +8,7 @@ use App\Models\User;
 
 class MakeAssetAssignedToPolymorphic extends Migration
 {
-    /**
+    /*
      * Run the migrations.
      *
      * @return void
@@ -23,7 +23,7 @@ class MakeAssetAssignedToPolymorphic extends Migration
         }
     }
 
-    /**
+    /*
      * Reverse the migrations.
      *
      * @return voidatom
