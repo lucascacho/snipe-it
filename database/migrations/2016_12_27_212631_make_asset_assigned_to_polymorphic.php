@@ -15,11 +15,11 @@ class MakeAssetAssignedToPolymorphic extends Migration
      */
     public function up()
     {
-         Schema::table('assets', function (Blueprint $table) {
-             $table->string('assigned_type')->nullable();
-         });
-        if(config('database.default') == 'mysql') {
-            Asset::whereNotNull('assigned_to')->orWhere('assigned_to', '!=', '')->update(['assigned_type' => User::class]);
+        //  Schema::table('assets', function (Blueprint $table) {
+        //      $table->string('assigned_type')->nullable();
+        //  });
+        // if(config('database.default') == 'mysql') {
+        //     Asset::whereNotNull('assigned_to')->orWhere('assigned_to', '!=', '')->update(['assigned_type' => User::class]);
         }
     }
 
