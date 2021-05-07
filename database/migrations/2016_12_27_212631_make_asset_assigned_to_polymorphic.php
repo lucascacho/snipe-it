@@ -8,7 +8,7 @@ use App\Models\User;
 
 class MakeAssetAssignedToPolymorphic extends Migration
 {
-    /*
+    /**
      * Run the migrations.
      *
      * @return void
@@ -20,10 +20,10 @@ class MakeAssetAssignedToPolymorphic extends Migration
         //  });
         // if(config('database.default') == 'mysql') {
         //     Asset::whereNotNull('assigned_to')->orWhere('assigned_to', '!=', '')->update(['assigned_type' => User::class]);
-        }
+        //}
     }
 
-    /*
+    /**
      * Reverse the migrations.
      *
      * @return voidatom
