@@ -12,10 +12,10 @@ class AddLdapServerCertIgnoreToSettingsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('settings', function(Blueprint $table)
-		{
-			$table->boolean('ldap_server_cert_ignore')->default(FALSE);
-		});
+		// Schema::table('settings', function(Blueprint $table)
+		// {
+		// 	$table->boolean('ldap_server_cert_ignore')->default(FALSE);
+		// });
 	}
 
 	/**
